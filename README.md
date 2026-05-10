@@ -29,8 +29,8 @@ Complete list:
 
 ## Quick Start
 
-# python
-## Define your map
+## python
+#Define your map
 variables = ["Region1", "Region2", "Region3"]
 colors = ["Red", "Green", "Blue"]
 domains = {v: colors.copy() for v in variables}
