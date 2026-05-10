@@ -29,8 +29,8 @@ Complete list:
 
 ## Quick Start
 
-## python
-# Define your map
+# python
+## Define your map
 variables = ["Region1", "Region2", "Region3"]
 colors = ["Red", "Green", "Blue"]
 domains = {v: colors.copy() for v in variables}
@@ -41,7 +41,7 @@ adjacencies = {
     "Region3": ["Region2"]
 }
 
-# Solve
+## Solve
 csp = MapColoringCSP(variables, domains, adjacencies)
 solution = csp.backtrack({})
 
@@ -61,7 +61,7 @@ solution = csp.backtrack({})
  - is_consistent(var, color, assignment)	- Checks adjacency constraints
  - forward_check(var, color)	- Prunes neighbor domains
 - restore_domains(saved_domains)	- Undoes pruning on backtrack
-# Output Includes
+## Output Includes
 Color assignment for each region
 Color grouping by value
 Constraint verification
