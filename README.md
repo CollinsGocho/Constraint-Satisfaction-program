@@ -29,7 +29,7 @@ Complete list:
 
 ## Quick Start
 
-##vpython
+## python
 # Define your map
 variables = ["Region1", "Region2", "Region3"]
 colors = ["Red", "Green", "Blue"]
