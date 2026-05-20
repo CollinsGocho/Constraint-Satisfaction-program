@@ -1,3 +1,4 @@
+
 class MapColoringCSP:
     def __init__(self, variables, domains, neighbors):
         self.variables = variables
@@ -80,9 +81,3 @@ if solution:
         print("All constraints satisfied")
 else:
     print("No solution found")
-
-
-
-print("="*60)
-print("PROGRAM COMPLETED SUCCESSFULLY")
-print("="*60)
