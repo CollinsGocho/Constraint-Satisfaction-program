@@ -1,5 +1,5 @@
 
-class MapColoringCSP:
+class AustraliaMapcoloring:
     def __init__(self, variables, domains, neighbors):
         self.variables = variables
         self.domains = domains
